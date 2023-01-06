@@ -21,3 +21,14 @@ print(3>4)
 print(3<4)
 print(3>=4)
 print(3<=4)
+print(3==4)
+print(3!=4)
+
+## Ordenación alfabética por ASCII ##
+
+print("Hola">"Python")
+print("Hola"<"Python")
+print("Hola">="Python")
+print("Hola"<="Python")
+print("Hola"=="Python")
+print("Hola"!="Python")
