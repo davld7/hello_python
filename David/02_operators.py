@@ -32,3 +32,11 @@ print("Hola">="Python")
 print("Hola"<="Python")
 print("Hola"=="Python")
 print("Hola"!="Python")
+
+## Operadores Lógicos ##
+
+print(3>4 and "Hola">"Python")
+print(3>4 or "Hola">"Python")
+print(3<4 and "Hola"<"Python")
+print(3<4 or "Hola"<"Python")
+print(not(3>4))
