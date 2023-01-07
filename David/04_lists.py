@@ -5,7 +5,7 @@ my_other_list = []
 
 print(len(my_list))
 
-my_list = [35,25,17,17]
+my_list = [35, 25, 17, 17]
 print(my_list)
 print(len(my_list))
 
@@ -50,7 +50,7 @@ del my_list[0]
 print(my_list)
 
 
-my_list = [25,17]
+my_list = [25, 17]
 print(my_list)
 
 my_new_list = my_list.copy()
@@ -67,7 +67,8 @@ print(my_new_list)
 my_new_list.sort()
 print(my_new_list)
 
-print(my_new_list[0:2]) # Se toma los valores del 0 hasta el 2 (omitiendo el valor 2).
+# Se toma los valores del 0 hasta el 2 (omitiendo el valor 2).
+print(my_new_list[0:2])
 
 my_list = "Hola Python"
 print(my_list)
