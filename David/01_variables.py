@@ -41,4 +41,6 @@ print(age)
 
 # ¿Forzamos el tipo?.
 
-address : str = "Mi dirección"
+address: str = "Mi dirección"
+address = 7
+print(address)
