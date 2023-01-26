@@ -22,13 +22,13 @@ print(my_scape_string)
 name, last_name, age = "David", "Ramos", 25
 
 print("Mi nombre es {} {} y mi edad es {}.".format(name, last_name, age))
-print("Mi nombre es %s %s y mi edad es %s." %(name, last_name, age))
+print("Mi nombre es %s %s y mi edad es %s." % (name, last_name, age))
 print(f"Mi nombre es {name} {last_name} y mi edad es {age}.")
 
 ## Desempaquetado de caracteres ##
 
 language = "python."
-a, b, c, d, e, f, g= language
+a, b, c, d, e, f, g = language
 print(a)
 print(b)
 print(c)
@@ -66,4 +66,4 @@ print("1".isnumeric())
 print(language.lower())
 print(language.upper().isupper())
 print(language.startswith("py"))
-print("Py"=="py")
+print("Py" == "py")
