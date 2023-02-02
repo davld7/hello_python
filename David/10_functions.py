@@ -53,6 +53,7 @@ print_texts("Roberto", "David", "Morales", "Ramos")
 
 
 def print_upper_texts(*texts):
+    print(type(texts))
     for text in texts:
         print(text.upper())
 
