@@ -45,3 +45,12 @@ my_person.walk()
 my_other_person = Person("Roberto", "Morales", "Beto")
 
 my_other_person.walk()
+
+
+class Person:
+    def __init__(self, name, surname, alias="Sin alias"):
+        self.full_name = f"{name} {surname} ({alias})"  # Propiedad pública.
+        self.__name = name  # Propiedad privada.
+
+    def get_name(self):
+        return self.__name
