@@ -7,7 +7,7 @@ def fibonacci(n):
 
 def print_fibonacci():
     try:
-        n = int(input("Hasta dónde quieres que vaya la secuencia de Fibonacci: "))
+        n = int(input("¿Hasta dónde quieres que vaya la secuencia de Fibonacci?: "))
         if n < 0:
             print("Ingrese un número entero positivo.")
         elif n == 0:
