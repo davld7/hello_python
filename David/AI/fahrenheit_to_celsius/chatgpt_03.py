@@ -19,7 +19,7 @@ model.add(Dense(1, input_shape=[1]))
 # Compilar el modelo con la función de pérdida de error cuadrático medio y el optimizador Adam con una tasa de aprendizaje de 0.1
 model.compile(loss='mean_squared_error', optimizer=Adam(0.1))
 
-# Entrenar el modelo con los datos de entrada y salida, durante 500 épocas
+# Entrenar el modelo con los datos de entrada y salida, durante 700 épocas
 history = model.fit(fahrenheit, celsius, epochs=700)
 
 # Visualizar el aprendizaje del modelo
